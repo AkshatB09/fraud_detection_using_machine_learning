@@ -1,10 +1,11 @@
-1. Load data
-2. data preprocessing
-3. feature selection 
-4. transaction error
-5. analyze fraud trends
-6. predict 
-7. evaluate
-8. model training 
-9. batch fraud detection
-10. visualization of fraud
+1. Load Data
+2. Data preprocessing
+3. Feature selection
+4. Transaction error
+5. Model Training
+6. Predict
+7. Evaluate
+8. Batch Fraud detection
+9. Analyze fraud detection
+10. Visualize fraud trends
+11. fraud Visualization
