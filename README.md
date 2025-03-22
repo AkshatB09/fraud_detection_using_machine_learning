@@ -17,15 +17,16 @@
  2. Requirements
  3. Project Structure
  4. Load Data
- 5. Data Preprocessing
- 6. Feature Selection
- 7. Transaction Error Handling
- 8. Analysing Fraud Trends
- 9. Predict Fraud Transactions
- 10. Model Evaluation
- 11. Model Training
- 12. Batch Fraud Detection
- 13. Fraud Visualisation
+ 5. Data preprocessing
+ 6. Feature selection
+ 7. Transaction error
+ 8. Model Training
+ 9. Predict
+ 10. Evaluate
+ 11. Batch Fraud detection
+ 12. Analyze fraud detection
+ 13. Visualize fraud trends
+ 14. fraud Visualization
 
 ## Requirements
 Python 3.9.13
@@ -41,6 +42,9 @@ Python 3.9.13
 - scikit-learn
 - dash
 - xgboost
+- PIL
+- tkinter
+- filedialog
 - os
 
 ## Features
@@ -137,7 +141,7 @@ AI_UPI_Fraud_Detection/
 
 - Use batch_fraud_detection.py to analyze multiple transactions at once and detect fraud efficiently.
 
-10.  Fraud Visualization
+10.  Visualize Fraud Trends 
 
 - Fraud trends are visualized using:
     -  fraud_vs_nonfraud.png – Fraud vs. Non-Fraud Transactions (Bar Chart).
@@ -147,6 +151,13 @@ AI_UPI_Fraud_Detection/
     -  fraud_location_heatmap.png – Fraud by Location (Heatmap).
     -  fraud_percentage_pie.png – Fraud Percentage (Pie Chart).
     -  fraud_by_transaction_type.png – Fraud by Transaction Type (Bar Chart).
+11.  Fraud Visualization
+
+- Display fraud occurrences on an India map with transaction locations.
+- Generate model performance comparison graphs.
+- Fraud Predictions Across Transaction Types.
+- Fraud Cases Per City (Random Forest)
+
 
  ## Output Examples
 
