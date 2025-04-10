@@ -1,6 +1,6 @@
 # Project Name
 
-# Fraud detection by using machine learning.
+## Fraud detection by using machine learning.
 
 # Team Members
 1. Mann Chavda (Ku2407u327)
